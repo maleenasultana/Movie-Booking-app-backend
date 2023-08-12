@@ -1,4 +1,4 @@
-const constants = require("../../backend/utils/constants");
+const constants = require("../utils/constants");
 var ObjectId = require('mongoose').Types.ObjectId;
 const Booking = require("../models/booking.model");
 
