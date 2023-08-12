@@ -10,7 +10,7 @@ const bcrypt = require('bcryptjs')
 const constants = require('../backend/utils/constants')
 // Initializing express
 const app = express()
-
+const PORT= 5000
 // Using the bodyParser middleware
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
