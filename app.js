@@ -1,4 +1,4 @@
-const serverConfig = require('../backend/configs/server.config')
+// const serverConfig = require('../backend/configs/server.config')
 const express = require('express')
 const bodyParser = require('body-parser')
 const mongoose = require('mongoose')
@@ -183,6 +183,6 @@ require('./routes/user.routes')(app)
 require('./routes/booking.routes')(app)
 require("./routes/payment.routes")(app)
 
-app.listen(serverConfig.PORT, () => {
-    console.log(`Application started on the port num: ${serverConfig.PORT}`)
+app.listen(PORT, () => {
+    console.log(`Application started on the port num: ${PORT}`)
 })
